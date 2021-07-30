@@ -1,0 +1,234 @@
+/*Boilerplate*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 17px;
+    line-height: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+}
+
+/*Header*/
+header{
+    min-height: 80vh;
+    background: linear-gradient(to right,hsla(0, 60%, 60%, 0.7),hsla(0, 90%, 50%, 0.7)),url(intro-pattern.svg) center;
+    color: white;
+    border-radius: 0 0 0 80px;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/*Navbar*/
+nav{
+    padding: 2rem 0;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    min-width: 50vw;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li{
+    padding: 0 1rem;
+}
+
+/*Buttons*/
+.btn{
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.whitebtn{
+    background-color: white;
+    color: hsl(0, 75%, 50%);
+}
+
+.whitebtn:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+}
+
+.pinkbtn{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.pinkbtn:hover{
+    background-color: white;
+    color: hsl(0, 75%, 50%);
+}
+
+.login-btns{
+    display: flex;
+    min-width: 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-btns ul{
+    list-style-type: none;
+}
+
+/*Header Text*/
+.header-text{
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 5rem;
+}
+
+.main-h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 900;
+}
+
+.main-subtitle{
+    font-weight: 100;
+    margin: 1rem;
+}
+
+.header-text button{
+    margin: 0rem 0.5rem;
+}
+
+/*Section 1*/
+section{
+    margin: 4rem;
+}
+
+.section1-header{
+    font-size: 1.8rem;
+    color: rgb(0, 20, 90);
+    margin: 5rem;
+    text-align: center;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features div{
+    max-width: 40vw;
+    margin: 2rem 0;
+}
+
+.left-aligned-features div{
+    margin-left: -600px;
+}
+
+.right-aligned-features div{
+    margin-right: -600px
+}
+
+.features-header2{
+    font-size: 1.5rem;
+    color: rgb(0, 20, 90);
+    margin: 2rem 0;
+}
+
+.features-subtitle{
+    color: #333;
+    font-weight: 100;
+}
+
+.rightimg{
+    z-index: -1;
+    width: 500px;
+    position: absolute;
+    right: 0;
+}
+
+.leftimg{
+    z-index: -1;
+    width: 500px;
+    position: absolute;
+    left: 0;
+}
+
+/*Mobile buffer*/
+.mobile-buffer{
+    z-index: -2;
+    background-image: linear-gradient(to right,hsl(270, 70%, 25%),hsl(270, 70%, 10%));
+    margin: 0;
+    border-radius: 0 50px 0 50px;
+    min-height: 300px;
+    padding: 1rem;
+}
+
+.section2-header{
+    font-size: 2rem;
+    margin: 2rem 0;
+    color: white;
+}
+
+.section2-subtitle{
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.mobileimg{
+    height: 300px;
+    position: absolute;
+    left: 100px;
+}
+
+/*Footer*/
+footer{
+    background-color: hsl(270, 70%, 10%);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    border-radius: 0 50px 0 0;
+}
+
+.footer-header2{
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: white;
+    padding: 1rem 0;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer a{
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+
